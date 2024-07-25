@@ -1,0 +1,135 @@
+
+  
+  .home-title {
+    font-size: 2.6em;
+    color: #ffffff;
+  }
+  
+  .purple {
+    color: #6c63ff;
+  }
+  
+  .home-about-description {
+    text-align: left;
+    padding: 20px;
+  }
+  
+  .home-about-body {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #01ccff;
+  }
+  
+  .myAvtar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .avatar-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .home-about-social {
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .home-about-social h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #ffffff;
+  }
+  
+  .home-about-social p {
+    font-size: 1.2em;
+    color: #ffffff;
+  }
+  
+  .home-about-social-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social-icons {
+    margin: 0 10px;
+  }
+  
+  .icon-colour {
+    color: #6c63ff;
+    font-size: 2em;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .icon-colour:hover {
+    color: #333;
+  }
+  /* General Styles */
+
+
+.home-about-description {
+  color: #333;
+  margin-top: 20px;
+}
+
+.home-about-description h1 {
+  font-size: 2.6em;
+  font-weight: bold;
+  color: #6c63ff; /* Adjust the color to your preference */
+}
+
+.home-about-description .purple {
+  color: #6c63ff; /* Adjust the color to your preference */
+}
+
+.home-about-body {
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+
+.myAvtar img {
+  border-radius: 50%;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Social Icons */
+.home-about-social {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.home-about-social h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.home-about-social p {
+  font-size: 1.2em;
+  color: #666;
+}
+
+.home-about-social-links {
+  list-style: none;
+  padding: 0;
+}
+
+.social-icons {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.social-icons a {
+  color: #6c63ff; /* Adjust the color to your preference */
+  font-size: 2em;
+  transition: color 0.3s ease-in-out;
+}
+
+.social-icons a:hover {
+  color: #333; /* Adjust the color to your preference */
+}

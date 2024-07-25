@@ -1,0 +1,54 @@
+.home-section {
+    background-color: #f5f5f5;
+    padding: 60px 0;
+  }
+  
+  .home-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .home-header {
+    text-align: left;
+  }
+  
+  .heading {
+    font-size: 2.5em;
+    color: #ffffff;
+    margin-bottom: 15px;
+  }
+  
+  .wave {
+    display: inline-block;
+    animation: wave-animation 2.5s infinite;
+    transform-origin: 70% 70%;
+  }
+  
+  
+  
+  .heading-name {
+    font-size: 2.8em;
+    color: #fffcfc;
+  }
+  
+  .main-name {
+    color: #6c63ff;
+  }
+  
+  .type-container {
+    padding: 50px 0;
+    text-align: left;
+  }
+  
+  .home-img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .home-img {
+    max-height: 450px;
+  }
+  

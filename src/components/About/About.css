@@ -1,0 +1,53 @@
+/* About.css */
+
+.about-section {
+    background-color: #282c34;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .purple {
+    color: #6c63ff;
+  }
+  
+  .about-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .project-heading {
+    text-align: center;
+    font-size: 2.2em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .skill-icon {
+    animation: spin 2s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  .tech-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    font-size: 3rem; /* Adjust size as needed */
+    color: #6c63ff; /* Adjust color as needed */
+    transition: transform 0.3s, color 0.3s;
+  }
+  
+  .tech-icons:hover {
+    transform: scale(1.2);
+    color: #ff6347; /* Adjust hover color as needed */
+  }
+  
